@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cybersecurity professional portfolio - penetration testing, security research, and vulnerability analysis">
+    <title>~/portfolio - Security Researcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="terminal">
+        <header class="header">
+            <pre class="ascii-logo">
+   ██████╗ ██████╗  ██████╗ ███████╗███████╗████████╗██╗ ██████╗██╗  ██╗
+  ██╔════╝ ██╔══██╗██╔═══██╗██╔════╝██╔════╝╚══██╔══╝██║██╔════╝██║ ██╔╝
+  ██║  ███╗██████╔╝██║   ██║███████╗███████╗   ██║   ██║██║     █████╔╝ 
+  ██║   ██║██╔══██╗██║   ██║╚════██║╚════██║   ██║   ██║██║     ██╔═██╗ 
+  ╚██████╔╝██║  ██║╚██████╔╝███████║███████║   ██║   ██║╚██████╗██║  ██╗
+   ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝
+                                 
+   ╔═══════════════════════════════════════╗
+   ║  SECURITY ENTHUSIAST // ASPIRING      ║
+   ║  PENTESTER // CS STUDENT              ║
+   ╚═══════════════════════════════════════╝
+</pre>
+            <nav class="nav">
+                <span class="prompt">guest@portfolio:~$</span>
+                <a href="#about" class="nav-link">cat about.txt</a>
+                <a href="#projects" class="nav-link">ls -la projects/</a>
+                <a href="#contact" class="nav-link">./contact.sh</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="section">
+                <div class="section-header">
+                    <span class="prompt">guest@portfolio:~$</span> cat about.txt
+                </div>
+                <div class="section-content">
+                    <p>
+                        CS student with a growing interest in cybersecurity. I enjoy breaking
+                        things apart to understand how they work—currently learning penetration
+                        testing, and secure coding practices.
+                    </p>
+                    <p>
+                        Working through CTF challenges, building security tools as learning
+                        projects, and always looking for opportunities to improve. Seeking an
+                        internship where I can learn from experienced professionals and contribute
+                        to real-world security work.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <span class="label">--languages</span>
+                            <span class="values">python, bash, c, java</span>
+                        </div>
+                        <div class="skill-category">
+                            <span class="label">--tools</span>
+                            <span class="values">burp, wireshark, nmap, metasploit, ghidra</span>
+                        </div>
+                        <div class="skill-category">
+                            <span class="label">--focus</span>
+                            <span class="values">webapp-security, network-pentesting, ctf-challenges, osint</span>
+                        </div>
+                        <div class="skill-category">
+                            <span class="label">--certs</span>
+                            <span class="values">CompTIA A+</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <span class="prompt">guest@portfolio:~$</span> ls -la projects/
+                </div>
+                <div class="section-content">
+                    <div class="file-listing">
+                        <span class="file-meta">total 1</span>
+                    </div>
+
+                    <article class="project">
+                        <div class="file-listing">
+                            <span class="file-perms">-rwxr-xr-x</span>
+                            <span class="file-size">4.2K</span>
+                            <span class="file-date">Jan 15</span>
+                            <span class="file-name">sast_assistant.py</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-thumb">
+                                <img src="sast_terminal.gif" alt="SAST Assistant output" class="thumb-img">
+                            </div>
+                            <p>
+                                AI-powered Static Application Security Testing tool that combines
+                                Semgrep scanning with LLM-based analysis. Follows a "Scan-Enrich-Fix"
+                                pipeline to help developers understand and remediate SQL injection
+                                and XSS vulnerabilities with educational explanations.
+                            </p>
+                            <div class="project-meta">
+                                <span class="label">stack:</span> python, semgrep, google-gemini-api, pydantic
+                            </div>
+                            <div class="project-meta">
+                                <span class="label">approach:</span> Built a modular pipeline architecture—
+                                Scanner extracts findings, Extractor grabs code context, AI Engine
+                                generates educational explanations, Reporter outputs Markdown. Learned
+                                how to integrate external tools via subprocess and work with LLM APIs.
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Grosstick/sast-assistant" target="_blank" rel="noopener"
+                                    class="text-link">[github.com/Grosstick/sast-assistant]</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <span class="prompt">guest@portfolio:~$</span> ./contact.sh
+                </div>
+                <div class="section-content">
+                    <div class="contact-block">
+                        <pre>
+                            #!/bin/bash
+                            # contact.sh - reach out
+
+                            echo "Preferred contact methods:"
+                            echo "========================="
+                        </pre>
+                        <div class="contact-links">
+                            <div class="contact-item">
+                                <span class="label">$ mail -s "We want to hire you"</span>
+                                <a href="mailto:kamil.kwiatkowski-sec@proton.me"
+                                    class="text-link">kamil.kwiatkowski-sec@proton.me</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">$ curl</span>
+                                <a href="https://www.linkedin.com/in/kamil-kwiatkowski-359868383/" class="text-link"
+                                    target="_blank" rel="noopener">linkedin.com/in/kamil-kwiatkowski-359868383</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">$ git clone</span>
+                                <a href="https://github.com/Grosstick" class="text-link" target="_blank"
+                                    rel="noopener">github.com/Grosstick</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">$ curl</span>
+                                <a href="https://tryhackme.com/p/grostik" class="text-link" target="_blank"
+                                    rel="noopener">tryhackme.com/p/grostik</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="divider">════════════════════════════════════════════════════════════════</div>
+            <p class="footer-text">
+                <span class="prompt">guest@portfolio:~$</span> echo "Built by grosstick."
+            </p>
+            <p class="footer-meta">Last login: 2026 // PGP: 0xDEADBEEF</p>
+        </footer>
+    </div>
+</body>
+
+</html>
