@@ -68,7 +68,7 @@
                         </div>
                         <div class="skill-category">
                             <span class="label">--certs</span>
-                            <span class="values">CompTIA A+</span>
+                            <span class="values">CompTIA A+, CompTIA Sec+ - in progress</span>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="section-content">
                     <div class="file-listing">
-                        <span class="file-meta">total 1</span>
+                        <span class="file-meta">total 2</span>
                     </div>
 
                     <article class="project">
@@ -112,6 +112,41 @@
                             <div class="project-links">
                                 <a href="https://github.com/Grosstick/sast-assistant" target="_blank" rel="noopener"
                                     class="text-link">[github.com/Grosstick/sast-assistant]</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="file-listing">
+                            <span class="file-perms">-rwxr-xr-x</span>
+                            <span class="file-size">3.8K</span>
+                            <span class="file-date">Jan 11</span>
+                            <span class="file-name">pyfuzz.py</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-thumb">
+                                <img src="pyfuzzer_terminal.gif" alt="SAST Assistant output" class="thumb-img">
+                            </div>
+                            <p>
+                                Mutation-based fuzzing framework that automates detection of
+                                reliability and security vulnerabilities in HTTP APIs. Implements
+                                a "Seed-Mutate-Monitor" flow using bit-level mutations and
+                                dictionary injection, with automatic crash deduplication via
+                                signature hashing.
+                            </p>
+                            <div class="project-meta">
+                                <span class="label">stack:</span> python, requests, flask
+                            </div>
+                            <div class="project-meta">
+                                <span class="label">approach:</span> Built a fuzzing loop from scratch—
+                                seed corpus feeds into mutation engine (bit flips, byte swaps,
+                                interesting values), mutated inputs hit the target API, crashes get
+                                deduplicated and saved. Includes an intentionally vulnerable Flask app
+                                with 5 bug types for testing.
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Grosstick/pyfuzz" target="_blank" rel="noopener"
+                                    class="text-link">[github.com/Grosstick/pyfuzz]</a>
                             </div>
                         </div>
                     </article>
